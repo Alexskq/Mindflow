@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   title: "Alex MindFlow — Coaching Performance & Bien-être",
   description:
     "Alex MindFlow combine respiration fonctionnelle, préparation mentale et thérapie par contraste pour t'aider à atteindre ton plein potentiel — durablement.",
+  icons: {
+    icon: "/images/logo_mindflow.png",
+    apple: "/images/logo_mindflow.png",
+  },
   openGraph: {
     title: "Alex MindFlow — Coaching Performance & Bien-être",
     description:
