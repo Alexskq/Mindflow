@@ -18,10 +18,14 @@ export default function FadeIn({
 }: FadeInProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [mounted, setMounted] = useState(false);
+  const [forceVisible, setForceVisible] = useState(false);
   const isInView = useInView(ref, { once: true, margin: "-60px" });
 
   useEffect(() => {
     setMounted(true);
+    // Fallback: if IntersectionObserver doesn't fire within 1s, reveal content
+    const t = setTimeout(() => setForceVisible(true), 1000);
+    return () => clearTimeout(t);
   }, []);
 
   const xOffset = direction === "left" ? 24 : direction === "right" ? -24 : 0;
@@ -42,7 +46,7 @@ export default function FadeIn({
       className={className}
       initial={{ opacity: 0, y: yOffset, x: xOffset }}
       animate={
-        isInView
+        isInView || forceVisible
           ? { opacity: 1, y: 0, x: 0 }
           : { opacity: 0, y: yOffset, x: xOffset }
       }
