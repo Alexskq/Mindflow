@@ -67,7 +67,7 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
         <div className="absolute inset-0 bg-[#F7F6F4]" />
-        <div className="absolute top-1/4 right-0 w-1/2 h-3/4 bg-[#EEEDE9] rounded-l-[80px]" />
+        <div className="absolute top-1/4 right-0 w-1/2 h-[58%] bg-[#EEEDE9] rounded-l-[80px]" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 w-full grid grid-cols-1 md:grid-cols-5 gap-12 items-center py-20">
           <div className="md:col-span-3">
