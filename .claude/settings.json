@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install *)",
+      "Bash(rm -rf node_modules && pnpm install 2>&1)"
+    ],
+    "additionalDirectories": [
+      "/Users/alex/Code/Mindflow/site_web/node_modules"
+    ]
+  }
+}
