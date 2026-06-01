@@ -9,8 +9,7 @@ export default function MentionsLegalesPage() {
             Informations légales
           </p>
           <h1
-            className="text-4xl font-bold mb-12"
-            style={{ fontFamily: "Syne, sans-serif" }}
+            className="font-display text-4xl font-bold mb-12"
           >
             Mentions légales
           </h1>
@@ -18,8 +17,7 @@ export default function MentionsLegalesPage() {
           <div className="flex flex-col gap-10 text-[#6B6B6B] leading-relaxed">
             <div>
               <h2
-                className="text-lg font-bold text-[#0D0D0D] mb-3"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                className="font-display text-lg font-bold text-[#0D0D0D] mb-3"
               >
                 Éditeur du site
               </h2>
@@ -30,8 +28,7 @@ export default function MentionsLegalesPage() {
 
             <div>
               <h2
-                className="text-lg font-bold text-[#0D0D0D] mb-3"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                className="font-display text-lg font-bold text-[#0D0D0D] mb-3"
               >
                 Hébergement
               </h2>
@@ -40,8 +37,7 @@ export default function MentionsLegalesPage() {
 
             <div>
               <h2
-                className="text-lg font-bold text-[#0D0D0D] mb-3"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                className="font-display text-lg font-bold text-[#0D0D0D] mb-3"
               >
                 Propriété intellectuelle
               </h2>
@@ -52,8 +48,7 @@ export default function MentionsLegalesPage() {
 
             <div>
               <h2
-                className="text-lg font-bold text-[#0D0D0D] mb-3"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                className="font-display text-lg font-bold text-[#0D0D0D] mb-3"
               >
                 Données personnelles
               </h2>

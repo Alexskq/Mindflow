@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import { CAL_URL } from "@/lib/constants";
 
-const CAL_URL = "https://cal.com/alexmindflow/30min?overlayCalendar=true";
+export const metadata: Metadata = {
+  title: "À propos — Alex Zoonekynd | Alex MindFlow",
+  description:
+    "Alex Zoonekynd, instructeur certifié Oxygen Advantage® et méthode ECO2A® à Valenciennes. Son parcours, sa vision et sa méthode pour allier performance et bien-être durablement.",
+};
 
 const CERTIFICATIONS = [
   {
@@ -31,15 +37,14 @@ export default function AProposPage() {
               À propos
             </p>
             <h1
-              className="text-5xl md:text-6xl font-bold leading-[1.05] tracking-tight mb-8"
-              style={{ fontFamily: "Syne, sans-serif" }}
+              className="font-display text-5xl md:text-6xl font-bold leading-[1.05] tracking-tight mb-8"
             >
               D'un épuisement total à une méthode. Mon parcours.
             </h1>
             <p className="text-xl text-[#6B6B6B] leading-relaxed">
-              Je m'appelle Alexandre Zoonekynd. Je suis coach en performance et
+              Je m'appelle Alexandre Zoonekynd. Je suis préparateur mental et
               bien-être, basé à Valenciennes. Voici pourquoi j'ai créé Alex
-              MindFlow — et ce qui m'a conduit là.
+              MindFlow et ce qui m'a conduit là.
             </p>
           </FadeIn>
         </div>
@@ -55,15 +60,20 @@ export default function AProposPage() {
                   src="/images/profil.png"
                   alt="Alexandre Zoonekynd — Alex MindFlow"
                   fill
+                  sizes="(max-width: 768px) 192px, 224px"
                   className="object-cover"
                   style={{ objectPosition: "center 9px" }}
                 />
               </div>
               <div className="text-center">
-                <p className="font-bold text-[#0D0D0D]" style={{ fontFamily: "Syne, sans-serif" }}>
+                <p
+                  className="font-display font-bold text-[#0D0D0D]"
+                >
                   Alexandre Zoonekynd
                 </p>
-                <p className="text-sm text-[#6B6B6B] mt-0.5">Coach Performance & Bien-être</p>
+                <p className="text-sm text-[#6B6B6B] mt-0.5">
+                  Préparateur Mental & Bien-être
+                </p>
               </div>
             </div>
           </FadeIn>
@@ -73,23 +83,21 @@ export default function AProposPage() {
             <FadeIn delay={0.1}>
               <div className="flex items-start gap-4">
                 <span
-                  className="text-5xl font-bold text-[#EEEDE9] select-none leading-none mt-1"
-                  style={{ fontFamily: "Syne, sans-serif" }}
+                  className="font-display text-5xl font-bold text-[#EEEDE9] select-none leading-none mt-1"
                 >
                   01
                 </span>
                 <div>
                   <h2
-                    className="text-2xl font-bold mb-4"
-                    style={{ fontFamily: "Syne, sans-serif" }}
+                    className="font-display text-2xl font-bold mb-4"
                   >
                     Le sport avant tout
                   </h2>
                   <p className="text-[#6B6B6B] leading-relaxed mb-4">
-                    Avant de devenir coach, j'ai été athlète. Vingt ans de
-                    tennis compétitif, puis une reconversion vers les sports
-                    d'endurance : running, trail, triathlon, Hyrox. La
-                    performance, je l'ai vécue de l'intérieur — les
+                    Avant de devenir préparateur mental, j'ai été athlète. Vingt
+                    ans de tennis compétitif, puis une reconversion vers les
+                    sports d'endurance : running, trail, triathlon, Hyrox. La
+                    performance, je l'ai vécue de l'intérieur : les
                     entraînements à la limite, les compétitions sous pression,
                     la recherche permanente d'un dixième de seconde.
                   </p>
@@ -106,20 +114,18 @@ export default function AProposPage() {
             <FadeIn delay={0.1}>
               <div className="flex items-start gap-4">
                 <span
-                  className="text-5xl font-bold text-[#EEEDE9] select-none leading-none mt-1"
-                  style={{ fontFamily: "Syne, sans-serif" }}
+                  className="font-display text-5xl font-bold text-[#EEEDE9] select-none leading-none mt-1"
                 >
                   02
                 </span>
                 <div>
                   <h2
-                    className="text-2xl font-bold mb-4"
-                    style={{ fontFamily: "Syne, sans-serif" }}
+                    className="font-display text-2xl font-bold mb-4"
                   >
                     L'épuisement total comme point de bascule
                   </h2>
                   <p className="text-[#6B6B6B] leading-relaxed mb-4">
-                    Et puis le corps a dit non. Un épuisement total — pas
+                    Et puis le corps a dit non. Un épuisement total, pas
                     progressif, pas annoncé. Du jour au lendemain, plus
                     d'énergie, plus de motivation, plus de clarté. Tout ce que
                     j'avais construit s'est effondré d'un coup.
@@ -138,15 +144,13 @@ export default function AProposPage() {
             <FadeIn delay={0.1}>
               <div className="flex items-start gap-4">
                 <span
-                  className="text-5xl font-bold text-[#EEEDE9] select-none leading-none mt-1"
-                  style={{ fontFamily: "Syne, sans-serif" }}
+                  className="font-display text-5xl font-bold text-[#EEEDE9] select-none leading-none mt-1"
                 >
                   03
                 </span>
                 <div>
                   <h2
-                    className="text-2xl font-bold mb-4"
-                    style={{ fontFamily: "Syne, sans-serif" }}
+                    className="font-display text-2xl font-bold mb-4"
                   >
                     La découverte des trois leviers
                   </h2>
@@ -171,15 +175,13 @@ export default function AProposPage() {
             <FadeIn delay={0.1}>
               <div className="flex items-start gap-4">
                 <span
-                  className="text-5xl font-bold text-[#EEEDE9] select-none leading-none mt-1"
-                  style={{ fontFamily: "Syne, sans-serif" }}
+                  className="font-display text-5xl font-bold text-[#EEEDE9] select-none leading-none mt-1"
                 >
                   04
                 </span>
                 <div>
                   <h2
-                    className="text-2xl font-bold mb-4"
-                    style={{ fontFamily: "Syne, sans-serif" }}
+                    className="font-display text-2xl font-bold mb-4"
                   >
                     La décision de transmettre
                   </h2>
@@ -210,8 +212,7 @@ export default function AProposPage() {
               Certifications
             </p>
             <h2
-              className="text-3xl md:text-4xl font-bold"
-              style={{ fontFamily: "Syne, sans-serif" }}
+              className="font-display text-3xl md:text-4xl font-bold"
             >
               Une expertise validée
             </h2>
@@ -228,8 +229,7 @@ export default function AProposPage() {
                   />
                   <div>
                     <h3
-                      className="text-lg font-bold mb-1"
-                      style={{ fontFamily: "Syne, sans-serif" }}
+                      className="font-display text-lg font-bold mb-1"
                     >
                       {cert.name}
                     </h3>
@@ -249,8 +249,7 @@ export default function AProposPage() {
         <div className="max-w-2xl mx-auto text-center">
           <FadeIn>
             <h2
-              className="text-3xl md:text-4xl font-bold mb-6"
-              style={{ fontFamily: "Syne, sans-serif" }}
+              className="font-display text-3xl md:text-4xl font-bold mb-6"
             >
               Tu veux en savoir plus ?
             </h2>

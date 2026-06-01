@@ -3,22 +3,25 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { CAL_URL } from "@/lib/constants";
 
 const NAV_LINKS = [
-  { href: "/", label: "Accueil" },
-  { href: "/#methode", label: "La méthode" },
+  { href: "/oxygen-advantage", label: "Oxygen Advantage" },
+  { href: "/preparation-mentale", label: "Prépa mentale" },
+  { href: "/exposition-au-froid", label: "Exposition au froid" },
+  { href: "/blog", label: "Blog" },
   { href: "/services", label: "Services" },
   { href: "/a-propos", label: "À propos" },
   { href: "/contact", label: "Contact" },
 ];
 
-const CAL_URL =
-  "https://cal.com/alexmindflow/30min?overlayCalendar=true";
-
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -41,13 +44,12 @@ export default function Header() {
             alt=""
             width={28}
             height={28}
-            className="object-contain"
-            style={{ filter: "invert(1) brightness(0)" }}
+            className="object-contain w-7 h-7"
+            style={{ filter: "invert(1) brightness(0)", width: "auto", height: "auto" }}
             aria-hidden="true"
           />
           <span
-            className="font-bold text-xl tracking-tight text-[#0D0D0D]"
-            style={{ fontFamily: "Syne, sans-serif" }}
+            className="font-display font-bold text-xl tracking-tight text-[#0D0D0D]"
           >
             Alex MindFlow
           </span>
@@ -59,7 +61,11 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-[#0D0D0D] hover:text-[#0A8F8F] transition-colors"
+              className={`text-sm font-medium transition-colors ${
+                pathname === link.href
+                  ? "text-[#0A8F8F]"
+                  : "text-[#0D0D0D] hover:text-[#0A8F8F]"
+              }`}
             >
               {link.label}
             </Link>
@@ -88,29 +94,50 @@ export default function Header() {
       </div>
 
       {/* Mobile drawer */}
-      {menuOpen && (
-        <div className="md:hidden bg-[#F7F6F4] border-t border-[#EEEDE9] px-6 py-6 flex flex-col gap-5">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-base font-medium text-[#0D0D0D] hover:text-[#0A8F8F] transition-colors"
-              onClick={() => setMenuOpen(false)}
-            >
-              {link.label}
-            </Link>
-          ))}
-          <a
-            href={CAL_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 inline-flex items-center justify-center px-5 py-3 rounded-full bg-[#0A8F8F] text-white text-sm font-semibold hover:bg-[#077070] transition-colors"
-            aria-label="Réserver un appel découverte"
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            key="mobile-menu"
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+            className="md:hidden overflow-hidden bg-[#F7F6F4] border-t border-[#EEEDE9]"
           >
-            Réserver un appel
-          </a>
-        </div>
-      )}
+            <div className="px-6 py-6 flex flex-col gap-5">
+              {NAV_LINKS.map((link, i) => (
+                <motion.div
+                  key={link.href}
+                  initial={{ opacity: 0, x: -12 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.04, duration: 0.2 }}
+                >
+                  <Link
+                    href={link.href}
+                    className={`text-base font-medium transition-colors ${
+                      pathname === link.href
+                        ? "text-[#0A8F8F]"
+                        : "text-[#0D0D0D] hover:text-[#0A8F8F]"
+                    }`}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                </motion.div>
+              ))}
+              <a
+                href={CAL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-flex items-center justify-center px-5 py-3 rounded-full bg-[#0A8F8F] text-white text-sm font-semibold hover:bg-[#077070] transition-colors"
+                aria-label="Réserver un appel découverte"
+              >
+                Réserver un appel
+              </a>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

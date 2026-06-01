@@ -3,21 +3,90 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+const BASE_URL = "https://www.alexmindflow.fr";
+
 export const metadata: Metadata = {
-  title: "Alex MindFlow — Coaching Performance & Bien-être",
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: "Alex MindFlow — Préparation Mentale & Bien-être · Valenciennes",
+    template: "%s | Alex MindFlow",
+  },
   description:
-    "Alex MindFlow combine respiration fonctionnelle, préparation mentale et thérapie par contraste pour t'aider à atteindre ton plein potentiel — durablement.",
+    "Alex MindFlow combine respiration fonctionnelle Oxygen Advantage®, préparation mentale ECO2A® et exposition au froid pour t'aider à performer durablement — à Valenciennes.",
   icons: {
     icon: "/images/logo_mindflow.png",
     apple: "/images/logo_mindflow.png",
   },
   openGraph: {
-    title: "Alex MindFlow — Coaching Performance & Bien-être",
+    title: "Alex MindFlow — Préparation Mentale & Bien-être",
     description:
-      "Coaching en performance et bien-être à Valenciennes. Méthode basée sur la respiration, le mental et la thérapie par contraste.",
+      "Préparation mentale et bien-être à Valenciennes. Respiration Oxygen Advantage®, méthode ECO2A®, exposition au froid.",
     locale: "fr_FR",
     type: "website",
+    url: BASE_URL,
+    siteName: "Alex MindFlow",
+    images: [{ url: `${BASE_URL}/opengraph-image`, width: 1200, height: 630, alt: "Alex MindFlow" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Alex MindFlow — Préparation Mentale & Bien-être",
+    description:
+      "Respiration fonctionnelle, préparation mentale et exposition au froid à Valenciennes.",
+    images: [`${BASE_URL}/opengraph-image`],
+  },
+  alternates: {
+    canonical: BASE_URL,
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.alexmindflow.fr/#business",
+      name: "Alex MindFlow",
+      description:
+        "Coaching en respiration fonctionnelle Oxygen Advantage®, préparation mentale ECO2A® et exposition au froid à Valenciennes.",
+      url: "https://www.alexmindflow.fr",
+      email: "alexzoonekynd@gmail.com",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Valenciennes",
+        addressRegion: "Hauts-de-France",
+        addressCountry: "FR",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 50.3587,
+        longitude: 3.5236,
+      },
+      sameAs: ["https://www.instagram.com/alex_mindflow"],
+      priceRange: "€€",
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "09:00",
+        closes: "19:00",
+      },
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.alexmindflow.fr/#person",
+      name: "Alex Zoonekynd",
+      jobTitle: "Coach en respiration fonctionnelle et préparation mentale",
+      url: "https://www.alexmindflow.fr/a-propos",
+      sameAs: ["https://www.instagram.com/alex_mindflow"],
+      knowsAbout: [
+        "Oxygen Advantage",
+        "Respiration fonctionnelle",
+        "Préparation mentale",
+        "Méthode ECO2A",
+        "Exposition au froid",
+        "Bain froid",
+      ],
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -26,7 +95,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className="h-full">
+    <html lang="fr" className="h-full" data-scroll-behavior="smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-[#F7F6F4] text-[#0D0D0D]">
         <Header />
         <main className="flex-1">{children}</main>
