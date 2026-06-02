@@ -14,10 +14,6 @@ export const metadata: Metadata = {
   },
   description:
     "Alex MindFlow combine respiration fonctionnelle Oxygen Advantage®, préparation mentale ECO2A® et exposition au froid pour t'aider à performer durablement — à Valenciennes.",
-  icons: {
-    icon: "/images/logo_mindflow.png",
-    apple: "/images/logo_mindflow.png",
-  },
   openGraph: {
     title: "Alex MindFlow — Préparation Mentale & Bien-être",
     description:
