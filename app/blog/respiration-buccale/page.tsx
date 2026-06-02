@@ -4,7 +4,7 @@ import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import { ArrowLeft, ArrowRight, AlertCircle } from "lucide-react";
 import { CAL_URL } from "@/lib/constants";
-const PAGE_URL = "https://www.alexmindflow.fr/blog/respiration-buccale";
+const PAGE_URL = "https://www.alex-mindflow.fr/blog/respiration-buccale";
 const PUBLISHED = "2026-05-29T00:00:00.000Z";
 const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/Mouth-Breathing_3fae485b-e991-4f20-adc0-fb0438ec9f84.webp";
 
@@ -41,12 +41,12 @@ const articleJsonLd = {
   author: {
     "@type": "Person",
     name: "Alex Zoonekynd",
-    url: "https://www.alexmindflow.fr/a-propos",
+    url: "https://www.alex-mindflow.fr/a-propos",
   },
   publisher: {
     "@type": "Organization",
     name: "Alex MindFlow",
-    url: "https://www.alexmindflow.fr",
+    url: "https://www.alex-mindflow.fr",
   },
   mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
   keywords: "respiration buccale, apnée du sommeil, hypertension, anxiété, Oxygen Advantage",

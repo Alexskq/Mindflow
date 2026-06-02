@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
 
-const BASE_URL = "https://www.alexmindflow.fr";
+const BASE_URL = "https://www.alex-mindflow.fr";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -41,11 +41,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.alexmindflow.fr/#business",
+      "@id": "https://www.alex-mindflow.fr/#business",
       name: "Alex MindFlow",
       description:
         "Coaching en respiration fonctionnelle Oxygen Advantage®, préparation mentale ECO2A® et exposition au froid à Valenciennes.",
-      url: "https://www.alexmindflow.fr",
+      url: "https://www.alex-mindflow.fr",
       email: "alexzoonekynd@gmail.com",
       address: {
         "@type": "PostalAddress",
@@ -69,10 +69,10 @@ const jsonLd = {
     },
     {
       "@type": "Person",
-      "@id": "https://www.alexmindflow.fr/#person",
+      "@id": "https://www.alex-mindflow.fr/#person",
       name: "Alex Zoonekynd",
       jobTitle: "Coach en respiration fonctionnelle et préparation mentale",
-      url: "https://www.alexmindflow.fr/a-propos",
+      url: "https://www.alex-mindflow.fr/a-propos",
       sameAs: ["https://www.instagram.com/alex_mindflow"],
       knowsAbout: [
         "Oxygen Advantage",

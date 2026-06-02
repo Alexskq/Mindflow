@@ -5,7 +5,7 @@ import FadeIn from "@/components/FadeIn";
 import { ArrowLeft, ArrowRight, CheckCircle } from "lucide-react";
 
 import { CAL_URL } from "@/lib/constants";
-const PAGE_URL = "https://www.alexmindflow.fr/blog/fonctions-du-nez";
+const PAGE_URL = "https://www.alex-mindflow.fr/blog/fonctions-du-nez";
 const PUBLISHED = "2026-05-29T00:00:00.000Z";
 const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/nose-functions_13bb5c34-a40e-495c-a4a7-331510e9fc80.jpg";
 
@@ -42,12 +42,12 @@ const articleJsonLd = {
   author: {
     "@type": "Person",
     name: "Alex Zoonekynd",
-    url: "https://www.alexmindflow.fr/a-propos",
+    url: "https://www.alex-mindflow.fr/a-propos",
   },
   publisher: {
     "@type": "Organization",
     name: "Alex MindFlow",
-    url: "https://www.alexmindflow.fr",
+    url: "https://www.alex-mindflow.fr",
   },
   mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
   keywords: "respiration nasale, nez, Oxygen Advantage, oxyde nitrique, bien-être",

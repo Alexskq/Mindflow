@@ -4,7 +4,7 @@ import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import { ArrowLeft, ArrowRight, CheckCircle } from "lucide-react";
 import { CAL_URL } from "@/lib/constants";
-const PAGE_URL = "https://www.alexmindflow.fr/blog/asthme-effort-respiration";
+const PAGE_URL = "https://www.alex-mindflow.fr/blog/asthme-effort-respiration";
 const PUBLISHED = "2026-05-29T00:00:00.000Z";
 const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/Exercise-Induced-Asthma-Symptoms-Treatment-Causes_67b907b0-ccdd-4b89-8a2b-c98b4ccf6b1d.webp";
 
@@ -41,12 +41,12 @@ const articleJsonLd = {
   author: {
     "@type": "Person",
     name: "Alex Zoonekynd",
-    url: "https://www.alexmindflow.fr/a-propos",
+    url: "https://www.alex-mindflow.fr/a-propos",
   },
   publisher: {
     "@type": "Organization",
     name: "Alex MindFlow",
-    url: "https://www.alexmindflow.fr",
+    url: "https://www.alex-mindflow.fr",
   },
   mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
   keywords: "asthme effort, bronchoconstriction, respiration sport, CO2, Oxygen Advantage",

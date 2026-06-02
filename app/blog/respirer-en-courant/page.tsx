@@ -4,7 +4,7 @@ import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import { ArrowLeft, ArrowRight, CheckCircle } from "lucide-react";
 import { CAL_URL } from "@/lib/constants";
-const PAGE_URL = "https://www.alexmindflow.fr/blog/respirer-en-courant";
+const PAGE_URL = "https://www.alex-mindflow.fr/blog/respirer-en-courant";
 const PUBLISHED = "2026-05-29T00:00:00.000Z";
 const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/breathing-running_d46f682c-9630-4c4e-9453-9bb6b483f4a2.jpg";
 
@@ -41,12 +41,12 @@ const articleJsonLd = {
   author: {
     "@type": "Person",
     name: "Alex Zoonekynd",
-    url: "https://www.alexmindflow.fr/a-propos",
+    url: "https://www.alex-mindflow.fr/a-propos",
   },
   publisher: {
     "@type": "Organization",
     name: "Alex MindFlow",
-    url: "https://www.alexmindflow.fr",
+    url: "https://www.alex-mindflow.fr",
   },
   mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
   keywords: "respiration course à pied, running nez bouche, CO2 endurance, Oxygen Advantage sport",

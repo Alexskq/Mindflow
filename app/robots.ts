@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.alexmindflow.fr/sitemap.xml",
+    sitemap: "https://www.alex-mindflow.fr/sitemap.xml",
   };
 }
