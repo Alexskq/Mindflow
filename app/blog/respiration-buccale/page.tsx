@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     tags: ["respiration buccale", "sommeil", "apnée", "hypertension", "Oxygen Advantage", "bien-être"],
     locale: "fr_FR",
     siteName: "Alex MindFlow",
-    images: [{ url: IMAGE, width: 1200, alt: "Respiration buccale — causes et effets" }],
+    images: [{ url: IMAGE, width: 1200, alt: "Respiration buccale : causes et effets" }],
   },
 };
 
@@ -73,7 +73,7 @@ const CONSEQUENCES = [
   },
   {
     label: "Ronflements et apnée du sommeil",
-    desc: "La nuit, la langue retombe en arrière et obstrue les voies aériennes — le ronflement en est le symptôme le plus visible.",
+    desc: "La nuit, la langue retombe en arrière et obstrue les voies aériennes. Le ronflement en est le symptôme le plus visible.",
   },
   {
     label: "Immunité affaiblie",
@@ -119,7 +119,7 @@ export default function RespirationBucalePage() {
                 rel="noopener noreferrer"
                 className="text-[#0A8F8F] hover:underline"
               >
-                Oxygen Advantage® — Patrick McKeown
+                Oxygen Advantage® de Patrick McKeown
               </a>{" "}
               · Adapté et traduit par Alex MindFlow
             </p>
@@ -131,7 +131,7 @@ export default function RespirationBucalePage() {
       <section className="relative h-72 md:h-[480px] overflow-hidden">
         <Image
           src="https://oxygenadvantage.com/cdn/shop/articles/Mouth-Breathing_3fae485b-e991-4f20-adc0-fb0438ec9f84.webp"
-          alt="Respiration buccale — causes et effets"
+          alt="Respiration buccale : causes et effets"
           fill
           sizes="100vw"
           className="object-cover object-center"
@@ -148,14 +148,14 @@ export default function RespirationBucalePage() {
               Une respiration saine se fait par le nez. Pourtant, environ{" "}
               <strong className="text-[#0D0D0D]">90% des personnes</strong>{" "}
               présentent des signes de congestion ou d'obstruction nasale à un
-              moment de leur vie — et beaucoup ont développé la respiration
+              moment de leur vie. Beaucoup ont développé la respiration
               buccale comme mode de fonctionnement par défaut.
             </p>
             <p className="text-lg text-[#6B6B6B] leading-relaxed mb-10">
               Respirer ponctuellement par la bouche pendant un rhume ou un
               effort intense, c'est normal. Mais la respiration buccale{" "}
-              <strong className="text-[#0D0D0D]">chronique</strong> — au repos,
-              la nuit, pendant le sommeil — est un schéma dysfonctionnel associé
+              <strong className="text-[#0D0D0D]">chronique</strong>, au repos,
+              la nuit, pendant le sommeil, est un schéma dysfonctionnel associé
               à une longue liste de problèmes de santé, souvent sous-estimés ou
               mal diagnostiqués.
             </p>
@@ -172,21 +172,21 @@ export default function RespirationBucalePage() {
               émotionnel chronique. Mais une cause est souvent négligée : la{" "}
               <strong className="text-[#0D0D0D]">faible tolérance au CO₂</strong>
               . Lorsque la sensibilité au dioxyde de carbone est trop élevée, le
-              corps sur-breathe pour s'en débarrasser — et ouvre la bouche pour
+              corps sur-breathe pour s'en débarrasser, et ouvre la bouche pour
               augmenter le débit.
             </p>
             <p className="text-[#6B6B6B] leading-relaxed mb-4">
               Avec l'âge, la situation s'aggrave. À partir de 40 ans, une
               personne a{" "}
               <strong className="text-[#0D0D0D]">60% de probabilités</strong> de
-              passer au moins la moitié de la nuit à respirer par la bouche —
+              passer au moins la moitié de la nuit à respirer par la bouche,
               souvent sans en être consciente.
             </p>
             <p className="text-[#6B6B6B] leading-relaxed mb-10">
               Le stress chronique joue aussi un rôle majeur : les émotions
               négatives activent le système nerveux sympathique, accélèrent la
               respiration et poussent à l'ouverture buccale. La respiration
-              buccale entretient alors le stress — et le stress entretient la
+              buccale entretient alors le stress. Et le stress entretient la
               respiration buccale.
             </p>
 
@@ -207,7 +207,7 @@ export default function RespirationBucalePage() {
               charge sur la colonne de{" "}
               <strong className="text-[#0D0D0D]">4 à 5 kg</strong>. Une tête
               projetée de 5 cm vers l'avant exerce ainsi une charge équivalente
-              à un poids de 25 à 27 kg sur les vertèbres cervicales — avec les
+              à un poids de 25 à 27 kg sur les vertèbres cervicales, avec les
               tensions musculaires et les douleurs chroniques qui en découlent.
             </p>
 
@@ -250,8 +250,8 @@ export default function RespirationBucalePage() {
             </h2>
             <p className="text-[#6B6B6B] leading-relaxed mb-4">
               La première étape est de prendre conscience du schéma. Observer sa
-              propre respiration — à l'état de repos, en marchant, en travaillant
-              — permet d'identifier les moments où la bouche s'ouvre
+              propre respiration, à l'état de repos, en marchant, en travaillant,
+              permet d'identifier les moments où la bouche s'ouvre
               naturellement.
             </p>
             <p className="text-[#6B6B6B] leading-relaxed mb-4">
@@ -263,8 +263,8 @@ export default function RespirationBucalePage() {
             </p>
             <p className="text-[#6B6B6B] leading-relaxed mb-10">
               Pour la nuit, le ruban buccal (mouth tape) est une solution simple
-              et efficace pour garantir la respiration nasale pendant le sommeil
-              — et corriger des années de mauvaises habitudes en quelques
+              et efficace pour garantir la respiration nasale pendant le sommeil,
+              et corriger des années de mauvaises habitudes en quelques
               semaines.
             </p>
 
@@ -277,7 +277,7 @@ export default function RespirationBucalePage() {
                 className="font-display text-[#0D0D0D] text-lg font-bold leading-snug"
               >
                 La respiration buccale n'est pas une fatalité. C'est une
-                habitude — et les habitudes se changent. La clé est de traiter
+                habitude. Les habitudes se changent. La clé est de traiter
                 la cause, pas le symptôme.
               </p>
             </div>
@@ -293,7 +293,7 @@ export default function RespirationBucalePage() {
               >
                 oxygenadvantage.com
               </a>{" "}
-              — Patrick McKeown, Oxygen Advantage®.
+              par Patrick McKeown, Oxygen Advantage®.
             </p>
           </FadeIn>
         </div>

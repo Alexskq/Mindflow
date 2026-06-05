@@ -63,22 +63,22 @@ const TRANSITION_STEPS = [
   {
     step: "2",
     title: "Accepter l'inconfort initial",
-    desc: "Les premières semaines sont difficiles. Ton corps est habitué à un certain débit d'air. La tolérance au CO₂ est encore faible — c'est normal et ça se travaille.",
+    desc: "Les premières semaines sont difficiles. Ton corps est habitué à un certain débit d'air. La tolérance au CO₂ est encore faible. C'est normal et ça se travaille.",
   },
   {
     step: "3",
     title: "Tenir la respiration nasale même en ralentissant",
-    desc: "Si tu n'arrives plus à maintenir le nez, ralentis — ne passe pas par la bouche. L'objectif est l'adaptation, pas la performance immédiate.",
+    desc: "Si tu n'arrives plus à maintenir le nez, ralentis. Ne passe pas par la bouche. L'objectif est l'adaptation, pas la performance immédiate.",
   },
   {
     step: "4",
     title: "Augmenter l'intensité progressivement",
-    desc: "Sur 6 à 10 semaines, la tolérance au CO₂ augmente. Tu pourras courir de plus en plus vite en restant au nez — avec moins d'essoufflement.",
+    desc: "Sur 6 à 10 semaines, la tolérance au CO₂ augmente. Tu pourras courir de plus en plus vite en restant au nez, avec moins d'essoufflement.",
   },
   {
     step: "5",
     title: "Observer les bénéfices sur la récupération",
-    desc: "Les premières améliorations notables arrivent souvent sur le sommeil, la récupération et la clarté mentale — avant même les gains de performance.",
+    desc: "Les premières améliorations notables arrivent souvent sur le sommeil, la récupération et la clarté mentale, avant même les gains de performance.",
   },
   {
     step: "6",
@@ -89,7 +89,7 @@ const TRANSITION_STEPS = [
 
 const KEY_POINTS = [
   "La respiration nasale réduit la ventilation de 22% pour une même intensité d'effort",
-  "Le CO₂ — et non l'O₂ — est le principal déclencheur du besoin de respirer",
+  "Le CO₂, et non l'O₂, est le principal déclencheur du besoin de respirer",
   "Respirer par le nez maintient des niveaux optimaux de CO₂ pour libérer l'O₂ vers les muscles",
   "La bouche introduit de l'air froid et sec directement dans les bronches, déclenchant inflammation et bronchoconstriction",
   "L'adaptation à la respiration nasale prend 6 à 10 semaines",
@@ -130,7 +130,7 @@ export default function RespirerEnCourantPage() {
                 rel="noopener noreferrer"
                 className="text-[#0A8F8F] hover:underline"
               >
-                Oxygen Advantage® — Patrick McKeown
+                Oxygen Advantage® de Patrick McKeown
               </a>{" "}
               · Adapté et traduit par Alex MindFlow
             </p>
@@ -168,7 +168,7 @@ export default function RespirerEnCourantPage() {
               course crée souvent{" "}
               <strong className="text-[#0D0D0D]">plus d'essoufflement</strong>,
               pas moins. Comprendre pourquoi est la première étape pour courir
-              mieux — sans changer son volume d'entraînement.
+              mieux, sans changer son volume d'entraînement.
             </p>
 
             {/* CO2 */}
@@ -180,7 +180,7 @@ export default function RespirerEnCourantPage() {
             <p className="text-[#6B6B6B] leading-relaxed mb-4">
               La plupart des coureurs pensent qu'ils s'essoufflent par{" "}
               <em>manque d'oxygène</em>. C'est inexact. Le signal qui déclenche
-              le besoin de respirer n'est pas un taux d'O₂ trop bas — c'est un
+              le besoin de respirer n'est pas un taux d'O₂ trop bas. C'est un
               taux de{" "}
               <strong className="text-[#0D0D0D]">CO₂ trop élevé</strong>. Et la
               réponse du corps n'est pas d'absorber plus d'oxygène, mais
@@ -210,8 +210,8 @@ export default function RespirerEnCourantPage() {
             <p className="text-[#6B6B6B] leading-relaxed mb-4">
               Au-delà du CO₂, la respiration buccale pendant la course introduit
               de l'air non filtré, non réchauffé et non humidifié directement
-              dans les voies aériennes. Le Dr George Dallam — expert en
-              physiologie du sport — note que cette pratique crée{" "}
+              dans les voies aériennes. Le Dr George Dallam, expert en
+              physiologie du sport, note que cette pratique crée{" "}
               <em>
                 « un taux quasi épidémique de bronchoconstriction induite par
                 l'exercice »
@@ -222,7 +222,7 @@ export default function RespirerEnCourantPage() {
               L'air froid et sec irrite les muqueuses bronchiques, déclenche une
               réponse inflammatoire et resserre les voies aériennes. C'est un
               cercle vicieux : plus tu respires par la bouche, plus tes bronches
-              se contractent, plus tu t'essouffles — et plus tu respires par la
+              se contractent, plus tu t'essouffles, et plus tu respires par la
               bouche.
             </p>
 
@@ -320,7 +320,7 @@ export default function RespirerEnCourantPage() {
               >
                 La transition vers la respiration nasale en courant ne demande
                 pas plus de talent ou de condition physique. Elle demande de la
-                patience, de la régularité — et 6 à 10 semaines.
+                patience, de la régularité, et 6 à 10 semaines.
               </p>
             </div>
 
@@ -335,7 +335,7 @@ export default function RespirerEnCourantPage() {
               >
                 oxygenadvantage.com
               </a>{" "}
-              — Patrick McKeown, Oxygen Advantage®.
+              par Patrick McKeown, Oxygen Advantage®.
             </p>
           </FadeIn>
         </div>
@@ -371,7 +371,7 @@ export default function RespirerEnCourantPage() {
             </h2>
             <p className="text-[#6B6B6B] leading-relaxed mb-8">
               Réserve un appel pour travailler ta respiration à l'effort. En
-              6 à 10 semaines, tu peux changer ta façon de courir — et ta
+              6 à 10 semaines, tu peux changer ta façon de courir, et ta
               récupération avec.
             </p>
             <a

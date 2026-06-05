@@ -12,13 +12,13 @@ const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/nose-functions_13bb
 export const metadata: Metadata = {
   title: "Le nez : 30 fonctions que tu ne soupçonnes pas",
   description:
-    "Le Dr Cottle a identifié 30 fonctions distinctes du nez. Filtration, oxyde nitrique, cognition, sommeil, performance sportive — le nez est bien plus qu'un simple passage d'air.",
+    "Le Dr Cottle a identifié 30 fonctions distinctes du nez. Filtration, oxyde nitrique, cognition, sommeil, performance sportive : le nez est bien plus qu'un simple passage d'air.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "article",
     title: "Le nez : 30 fonctions que tu ne soupçonnes pas",
     description:
-      "Le Dr Cottle a identifié 30 fonctions distinctes du nez. Filtration, oxyde nitrique, cognition, sommeil, performance sportive — le nez est bien plus qu'un simple passage d'air.",
+      "Le Dr Cottle a identifié 30 fonctions distinctes du nez. Filtration, oxyde nitrique, cognition, sommeil, performance sportive : le nez est bien plus qu'un simple passage d'air.",
     url: PAGE_URL,
     publishedTime: PUBLISHED,
     modifiedTime: PUBLISHED,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     tags: ["respiration nasale", "nez", "Oxygen Advantage", "oxyde nitrique", "bien-être"],
     locale: "fr_FR",
     siteName: "Alex MindFlow",
-    images: [{ url: IMAGE, width: 1200, alt: "Fonctions du nez — respiration nasale" }],
+    images: [{ url: IMAGE, width: 1200, alt: "Fonctions du nez et respiration nasale" }],
   },
 };
 
@@ -94,7 +94,7 @@ const NOSE_FUNCTIONS = [
   {
     group: "Développement structurel",
     items: [
-      "Influencer le développement squelettique du visage — les enfants respirant par la bouche développent des structures faciales plus longues et des mâchoires plus étroites",
+      "Influencer le développement squelettique du visage : les enfants respirant par la bouche développent des structures faciales plus longues et des mâchoires plus étroites",
     ],
   },
 ];
@@ -133,7 +133,7 @@ export default function FonctionsDuNezPage() {
                 rel="noopener noreferrer"
                 className="text-[#0A8F8F] hover:underline"
               >
-                Oxygen Advantage® — Patrick McKeown
+                Oxygen Advantage® de Patrick McKeown
               </a>{" "}
               · Adapté et traduit par Alex MindFlow
             </p>
@@ -167,8 +167,8 @@ export default function FonctionsDuNezPage() {
               largement ce qu'on imagine.
             </p>
             <p className="text-lg text-[#6B6B6B] leading-relaxed mb-10">
-              Chaque fois que tu respires par la bouche — par habitude, par
-              paresse ou parce que ton nez est chroniquement congestionné — tu
+              Chaque fois que tu respires par la bouche, par habitude, par
+              paresse ou parce que ton nez est chroniquement congestionné, tu
               contournes ce système complexe. Et tu paies le prix sur ta santé,
               tes performances et ta qualité de vie.
             </p>
@@ -192,7 +192,7 @@ export default function FonctionsDuNezPage() {
               Lors d'une respiration nasale, l'oxyde nitrique produit dans les
               sinus est entraîné dans les poumons à chaque inspiration. Il
               redistribue le flux sanguin jusqu'à <strong className="text-[#0D0D0D]">24%</strong> dans les régions
-              supérieures des poumons — normalement sous-ventilées. La
+              supérieures des poumons, normalement sous-ventilées. La
               respiration buccale prive complètement l'organisme de cet effet.
             </p>
 
@@ -212,7 +212,7 @@ export default function FonctionsDuNezPage() {
               Cette résistance ralentit l'expiration, prolongeant le temps de
               contact entre l'air et les alvéoles pulmonaires. L'hémoglobine a
               ainsi plus de temps pour capter l'oxygène disponible. Mieux
-              respirer, c'est d'abord respirer plus lentement — et par le nez.
+              respirer, c'est d'abord respirer plus lentement, et par le nez.
             </p>
 
             {/* Section : fonctions groupées */}
@@ -263,7 +263,7 @@ export default function FonctionsDuNezPage() {
             <p className="text-[#6B6B6B] leading-relaxed mb-10">
               À l'inverse, les enfants qui respirent chroniquement par la bouche
               développent des visages plus longs, des mâchoires plus étroites et
-              des voies aériennes plus resserrées — avec des conséquences sur
+              des voies aériennes plus resserrées, avec des conséquences sur
               leur santé respiratoire tout au long de leur vie. À six ans, près
               de 60% du visage adulte est déjà formé.
             </p>
@@ -277,7 +277,7 @@ export default function FonctionsDuNezPage() {
                 className="font-display text-[#0D0D0D] text-lg font-bold leading-snug"
               >
                 Respirer par le nez n'est pas une préférence esthétique. C'est
-                la condition d'un fonctionnement physiologique optimal — à
+                la condition d'un fonctionnement physiologique optimal, à
                 l'état de repos, pendant l'effort et pendant le sommeil.
               </p>
             </div>
@@ -293,7 +293,7 @@ export default function FonctionsDuNezPage() {
               >
                 oxygenadvantage.com
               </a>{" "}
-              — Patrick McKeown, Oxygen Advantage®.
+              par Patrick McKeown, Oxygen Advantage®.
             </p>
           </FadeIn>
         </div>

@@ -11,7 +11,7 @@ const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/Exercise-Induced-As
 export const metadata: Metadata = {
   title: "Asthme à l'effort ou hors de forme ?",
   description:
-    "Tu tousses ou peines à respirer après l'effort ? Ce n'est pas forcément un manque de forme. L'asthme à l'effort touche 90% des asthmatiques et 10-25% des athlètes — et ça se traite par la respiration.",
+    "Tu tousses ou peines à respirer après l'effort ? Ce n'est pas forcément un manque de forme. L'asthme à l'effort touche 90% des asthmatiques et 10-25% des athlètes. Ça se traite par la respiration.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "article",
@@ -119,7 +119,7 @@ export default function AsthmeEffortPage() {
                 rel="noopener noreferrer"
                 className="text-[#0A8F8F] hover:underline"
               >
-                Oxygen Advantage® — Patrick McKeown
+                Oxygen Advantage® de Patrick McKeown
               </a>{" "}
               · Adapté et traduit par Alex MindFlow
             </p>
@@ -155,11 +155,11 @@ export default function AsthmeEffortPage() {
               <strong className="text-[#0D0D0D]">
                 bronchoconstriction induite par l'exercice (BIE)
               </strong>{" "}
-              — aussi appelée asthme à l'effort — touche environ{" "}
+              aussi appelée asthme à l'effort, touche environ{" "}
               <strong className="text-[#0D0D0D]">90% des asthmatiques</strong>{" "}
               et <strong className="text-[#0D0D0D]">10 à 25% des athlètes</strong>{" "}
               sans diagnostic d'asthme. Même des sportifs professionnels en
-              souffrent. C'est une condition réelle, et elle se traite — souvent
+              souffrent. C'est une condition réelle, et elle se traite, souvent
               sans médicament.
             </p>
 
@@ -178,8 +178,8 @@ export default function AsthmeEffortPage() {
               bronchoconstriction.
             </p>
             <p className="text-[#6B6B6B] leading-relaxed mb-10">
-              Les symptômes typiques — toux, sifflement, oppression thoracique,
-              essoufflement disproportionné — apparaissent pendant ou
+              Les symptômes typiques, toux, sifflement, oppression thoracique et
+              essoufflement disproportionné, apparaissent pendant ou
               immédiatement après l'effort. Ils disparaissent au repos mais
               reviennent à chaque séance si la cause n'est pas traitée.
             </p>
@@ -264,7 +264,7 @@ export default function AsthmeEffortPage() {
                 className="font-display text-[#0D0D0D] text-lg font-bold leading-snug"
               >
                 Lorsque ta respiration quotidienne est correcte, l'asthme à
-                l'effort peut disparaître entièrement — sans bronchodilatateur.
+                l'effort peut disparaître entièrement, sans bronchodilatateur.
               </p>
             </div>
 
@@ -279,7 +279,7 @@ export default function AsthmeEffortPage() {
               >
                 oxygenadvantage.com
               </a>{" "}
-              — Patrick McKeown, Oxygen Advantage®.
+              par Patrick McKeown, Oxygen Advantage®.
             </p>
           </FadeIn>
         </div>
@@ -315,7 +315,7 @@ export default function AsthmeEffortPage() {
             </h2>
             <p className="text-[#6B6B6B] leading-relaxed mb-8">
               On peut travailler sur ta tolérance au CO₂ et rétablir une
-              respiration fonctionnelle — avec la méthode Oxygen Advantage®.
+              respiration fonctionnelle, avec la méthode Oxygen Advantage®.
             </p>
             <a
               href={CAL_URL}

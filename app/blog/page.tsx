@@ -6,18 +6,30 @@ import { ArrowRight, Clock } from "lucide-react";
 import { CAL_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Blog — Respiration, performance & bien-être | Alex MindFlow",
+  title: "Blog : Respiration, performance & préparation mentale | Alex MindFlow",
   description:
-    "Articles scientifiques sur la respiration fonctionnelle, la performance sportive et le bien-être. Méthode Oxygen Advantage® — Alex MindFlow à Valenciennes.",
+    "Articles scientifiques sur la respiration fonctionnelle, la performance sportive et la préparation mentale. Méthode Oxygen Advantage® et psychologie du sport, par Alex MindFlow à Valenciennes.",
 };
 
 const ARTICLES = [
+  {
+    slug: "routine-visualisation-preparation-mentale",
+    category: "Préparation mentale",
+    title:
+      "Pourquoi votre routine de visualisation ne suffit pas",
+    excerpt:
+      "Une méta-analyse 2025 (36 études) est claire : un système intégré respiration + imagerie + self-talk surpasse chaque technique isolée. La question n'est pas quelle est la meilleure technique, mais comment construire le bon système.",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+    readTime: "7 min",
+    source: "Alex MindFlow",
+  },
   {
     slug: "fonctions-du-nez",
     category: "Corps · Respiration",
     title: "Le nez : 30 fonctions que tu ne soupçonnes pas",
     excerpt:
-      "En 1970, le Dr Maurice Cottle a identifié 30 fonctions distinctes du nez humain. La plupart des gens connaissent la filtration et le réchauffement de l'air — mais le nez fait bien plus que ça.",
+      "En 1970, le Dr Maurice Cottle a identifié 30 fonctions distinctes du nez humain. La plupart des gens connaissent la filtration et le réchauffement de l'air. Mais le nez fait bien plus que ça.",
     image:
       "https://oxygenadvantage.com/cdn/shop/articles/nose-functions_13bb5c34-a40e-495c-a4a7-331510e9fc80.jpg",
     readTime: "8 min",
@@ -39,7 +51,7 @@ const ARTICLES = [
     category: "Corps · Bien-être",
     title: "Respiration buccale : causes, effets et comment l'arrêter",
     excerpt:
-      "Respirer sainement, c'est respirer par le nez. Mais si ton nez est bloqué ou que ta tolérance au CO₂ est trop faible, tu respireras probablement par la bouche — et ce n'est pas anodin.",
+      "Respirer sainement, c'est respirer par le nez. Mais si ton nez est bloqué ou que ta tolérance au CO₂ est trop faible, tu respireras probablement par la bouche. Et ce n'est pas anodin.",
     image:
       "https://oxygenadvantage.com/cdn/shop/articles/Mouth-Breathing_3fae485b-e991-4f20-adc0-fb0438ec9f84.webp",
     readTime: "9 min",
@@ -75,12 +87,12 @@ export default function BlogPage() {
               <br />
               <span className="text-[#0A8F8F]">La science</span>
               <br />
-              de la respiration.
+              de la performance.
             </h1>
             <p className="text-xl text-[#6B6B6B] leading-relaxed max-w-xl">
-              Articles issus de la recherche en physiologie respiratoire, adaptés
-              et traduits depuis le blog scientifique Oxygen Advantage® de Patrick
-              McKeown.
+              Articles issus de la recherche en physiologie respiratoire et en
+              psychologie du sport. Respiration fonctionnelle, préparation
+              mentale, performance durable.
             </p>
           </FadeIn>
         </div>
