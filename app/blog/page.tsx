@@ -13,6 +13,17 @@ export const metadata: Metadata = {
 
 const ARTICLES = [
   {
+    slug: "qu-est-ce-que-la-preparation-mentale",
+    category: "Préparation mentale",
+    title: "La préparation mentale : définition, pour qui, pourquoi et comment",
+    excerpt:
+      "80 à 90% de la performance à haut niveau est mentale. Pourtant, la préparation mentale reste absente de la majorité des entraînements. Définition scientifique, profils concernés, bases neurologiques et techniques validées par la recherche.",
+    image:
+      "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
+    readTime: "9 min",
+    source: "Alex MindFlow",
+  },
+  {
     slug: "routine-visualisation-preparation-mentale",
     category: "Préparation mentale",
     title:
