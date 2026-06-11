@@ -38,25 +38,34 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5" aria-label="Alex MindFlow — Accueil">
+        <Link
+          href="/"
+          className="flex items-center gap-2.5"
+          aria-label="Alex MindFlow — Accueil"
+        >
           <Image
             src="/images/logo_mindflow.png"
             alt=""
             width={28}
             height={28}
             className="object-contain w-7 h-7"
-            style={{ filter: "invert(1) brightness(0)", width: "auto", height: "auto" }}
+            style={{
+              filter: "invert(1) brightness(0)",
+              width: "auto",
+              height: "auto",
+            }}
             aria-hidden="true"
           />
-          <span
-            className="font-display font-bold text-xl tracking-tight text-[#0D0D0D]"
-          >
-            Alex MindFlow
+          <span className="font-display font-bold text-xl tracking-tight text-[#0D0D0D]">
+            MindFlow
           </span>
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-8" aria-label="Navigation principale">
+        <nav
+          className="hidden md:flex items-center gap-8"
+          aria-label="Navigation principale"
+        >
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
