@@ -79,6 +79,17 @@ const ARTICLES = [
     readTime: "8 min",
     source: "Oxygen Advantage®",
   },
+  {
+    slug: "score-bolt",
+    category: "Corps · Performance",
+    title: "Le score BOLT : mesure ta tolérance au CO₂ en 40 secondes",
+    excerpt:
+      "Le BOLT (Body Oxygen Level Test) est le marqueur central de la méthode Oxygen Advantage®. En moins d'une minute, il révèle ton niveau de tolérance au CO₂ et prédit ta gestion de l'essoufflement à l'effort.",
+    image:
+      "https://oxygenadvantage.com/cdn/shop/articles/oxygen-advantage-bolt-score.jpg",
+    readTime: "7 min",
+    source: "Oxygen Advantage®",
+  },
 ];
 
 export default function BlogPage() {
