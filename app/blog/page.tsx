@@ -86,7 +86,7 @@ const ARTICLES = [
     excerpt:
       "Le BOLT (Body Oxygen Level Test) est le marqueur central de la méthode Oxygen Advantage®. En moins d'une minute, il révèle ton niveau de tolérance au CO₂ et prédit ta gestion de l'essoufflement à l'effort.",
     image:
-      "https://oxygenadvantage.com/cdn/shop/articles/oxygen-advantage-bolt-score.jpg",
+      "https://oxygenadvantage.com/cdn/shop/articles/Measure-your-BOLT-Score-and-Reduce-Breathlessness-During-Exercise_8412f399-2fda-401c-8f34-647a2ab1ef33.webp",
     readTime: "7 min",
     source: "Oxygen Advantage®",
   },

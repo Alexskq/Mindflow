@@ -8,7 +8,7 @@ import { CAL_URL } from "@/lib/constants";
 const PAGE_URL = "https://www.alex-mindflow.fr/blog/score-bolt";
 const PUBLISHED = "2026-06-11T00:00:00.000Z";
 const IMAGE =
-  "https://oxygenadvantage.com/cdn/shop/articles/BOLT-score_5b4d2a8f-d1f5-4e2e-9e3a-7c8b1f2e4d6a.webp";
+  "https://oxygenadvantage.com/cdn/shop/articles/Measure-your-BOLT-Score-and-Reduce-Breathlessness-During-Exercise_8412f399-2fda-401c-8f34-647a2ab1ef33.webp";
 
 export const metadata: Metadata = {
   title: "Le score BOLT : mesure ta tolérance au CO₂ en 40 secondes",
@@ -88,7 +88,7 @@ const BOLT_LEVELS = [
     range: "20 – 30 secondes",
     label: "Moyen",
     color: "text-yellow-600",
-    desc: "Respiration calme et silencieuse au repos. Bonne base de départ — des améliorations sensibles sont accessibles rapidement.",
+    desc: "Respiration calme et silencieuse au repos. Bonne base de départ, des améliorations sensibles sont accessibles rapidement.",
   },
   {
     range: "40 secondes et plus",
@@ -151,7 +151,7 @@ export default function ScoreBoltPage() {
       {/* IMAGE */}
       <section className="relative h-72 md:h-[480px] overflow-hidden">
         <Image
-          src="https://oxygenadvantage.com/cdn/shop/articles/oxygen-advantage-bolt-score.jpg"
+          src="https://oxygenadvantage.com/cdn/shop/articles/Measure-your-BOLT-Score-and-Reduce-Breathlessness-During-Exercise_8412f399-2fda-401c-8f34-647a2ab1ef33.webp"
           alt="Le score BOLT : mesure ta tolérance au CO₂"
           fill
           sizes="100vw"
@@ -168,8 +168,8 @@ export default function ScoreBoltPage() {
             {/* Intro */}
             <p className="text-lg text-[#6B6B6B] leading-relaxed mb-6">
               Avant d'optimiser ta respiration, tu dois savoir où tu en es. Le{" "}
-              <strong className="text-[#0D0D0D]">BOLT</strong> — Body Oxygen
-              Level Test — est le point de départ de la méthode Oxygen
+              <strong className="text-[#0D0D0D]">BOLT</strong> (Body Oxygen
+              Level Test) est le point de départ de la méthode Oxygen
               Advantage®. Un test simple, gratuit, réalisable en trente secondes,
               qui te donne une information que la plupart des gens ignorent sur
               leur propre corps : leur tolérance au CO₂.
@@ -191,12 +191,12 @@ export default function ScoreBoltPage() {
               niveau d'oxygène. Il mesure la durée de rétention confortable
               après une <strong className="text-[#0D0D0D]">expiration normale</strong>.
               Cette durée est directement corrélée à la sensibilité au dioxyde
-              de carbone — la molécule qui déclenche l'envie de respirer.
+              de carbone, la molécule qui déclenche l'envie de respirer.
             </p>
             <p className="text-[#6B6B6B] leading-relaxed mb-4">
               Pendant la rétention, le CO₂ s'accumule dans les poumons et le
               sang tandis que l'oxygène baisse légèrement. C'est cette
-              accumulation de CO₂ — et non le manque d'O₂ — qui génère
+              accumulation de CO₂ (et non le manque d'O₂) qui génère
               l'impulsion respiratoire. Plus tu tolères ce signal, plus ton
               volume ventilatoire au repos est efficace.
             </p>
@@ -204,7 +204,7 @@ export default function ScoreBoltPage() {
               Des recherches datant de 1975 ont établi que la durée de rétention
               post-expiratoire est le marqueur le plus fiable du volume
               respiratoire au repos et de l'essoufflement à l'effort. Tester
-              après l'expiration — et non après l'inspiration — élimine les
+              après l'expiration (et non après l'inspiration) élimine les
               biais liés à la capacité pulmonaire et les effets compétitifs qui
               faussent les mesures.
             </p>
@@ -263,7 +263,7 @@ export default function ScoreBoltPage() {
                         {level.range}
                       </p>
                       <span className={`text-xs font-semibold ${level.color}`}>
-                        — {level.label}
+                        {level.label}
                       </span>
                     </div>
                     <p className="text-sm text-[#6B6B6B] leading-relaxed">
@@ -281,7 +281,7 @@ export default function ScoreBoltPage() {
             <p className="text-[#6B6B6B] leading-relaxed mb-4">
               Le score BOLT est un prédicteur direct de l'essoufflement à
               l'effort. En dessous de 20 secondes, l'essoufflement apparaît dès
-              une intensité modérée — souvent confondu avec un manque de
+              une intensité modérée, souvent confondu avec un manque de
               condition physique. Au-dessus de 30 secondes, la respiration reste
               légère et contrôlée même à des intensités élevées.
             </p>
