@@ -85,7 +85,7 @@ const NOSE_FUNCTIONS = [
       "Améliorer l'oxygénation durant le sommeil",
       "Approfondir la qualité du sommeil et réduire les ronflements",
       "Activer 450 types de récepteurs olfactifs",
-      "Connecter odorat et gustation via les centres cérébraux",
+      "Connecter odorat et goût via les centres cérébraux",
       "Prévenir le rétrécissement des voies aériennes à l'effort",
       "Réduire la ventilation de 22% à intensité d'exercice équivalente",
       "Décongestionner naturellement lors d'une activité physique intense",
