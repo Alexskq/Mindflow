@@ -99,7 +99,7 @@ export default function HomePage() {
         <div className="relative z-10 max-w-6xl mx-auto px-6 w-full grid grid-cols-1 md:grid-cols-5 gap-12 items-center pt-20 pb-16 md:py-20">
           <div className="md:col-span-3">
             <p className="anim-fade-up delay-100 text-[#0A8F8F] text-sm font-semibold uppercase tracking-widest mb-6">
-              Préparation Mentale & Bien-être · Valenciennes
+              Préparation Mentale · Valenciennes
             </p>
 
             <h1 className="font-display anim-fade-up delay-200 text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mb-8">
@@ -155,7 +155,7 @@ export default function HomePage() {
                 Alexandre Zoonekynd
               </p>
               <p className="text-sm text-[#6B6B6B] mt-0.5">
-                Préparateur Mental & Bien-être
+                Préparateur Mental
               </p>
             </div>
           </div>
