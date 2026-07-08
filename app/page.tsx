@@ -99,7 +99,7 @@ export default function HomePage() {
         <div className="relative z-10 max-w-6xl mx-auto px-6 w-full grid grid-cols-1 md:grid-cols-5 gap-12 items-center pt-20 pb-16 md:py-20">
           <div className="md:col-span-3">
             <p className="anim-fade-up delay-100 text-[#0A8F8F] text-sm font-semibold uppercase tracking-widest mb-6">
-              Préparation Mentale · Valenciennes
+              Préparateur Mental · Valenciennes
             </p>
 
             <h1 className="font-display anim-fade-up delay-200 text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mb-8">
@@ -113,6 +113,7 @@ export default function HomePage() {
             </h1>
 
             <p className="anim-fade-up delay-300 text-lg text-[#6B6B6B] leading-relaxed max-w-lg mb-10">
+              Je suis Alexandre Zoonekynd, préparateur mental à Valenciennes.
               MindFlow combine respiration fonctionnelle, préparation mentale et
               exposition au chaud et au froid pour t'aider à atteindre ton plein
               potentiel <strong>durablement</strong>.

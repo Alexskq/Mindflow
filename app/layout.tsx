@@ -9,15 +9,15 @@ const BASE_URL = "https://www.alex-mindflow.fr";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Alex MindFlow — Préparation Mentale & Bien-être · Valenciennes",
+    default: "Préparateur Mental à Valenciennes — Alex MindFlow",
     template: "%s | Alex MindFlow",
   },
   description:
-    "Alex MindFlow combine respiration fonctionnelle Oxygen Advantage®, préparation mentale ECO2A® et exposition au froid pour t'aider à performer durablement — à Valenciennes.",
+    "Alexandre Zoonekynd, préparateur mental à Valenciennes. Respiration fonctionnelle Oxygen Advantage®, préparation mentale ECO2A® et exposition au froid pour performer durablement.",
   openGraph: {
-    title: "Alex MindFlow — Préparation Mentale & Bien-être",
+    title: "Préparateur Mental à Valenciennes — Alex MindFlow",
     description:
-      "Préparation mentale et bien-être à Valenciennes. Respiration Oxygen Advantage®, méthode ECO2A®, exposition au froid.",
+      "Préparateur mental à Valenciennes. Respiration Oxygen Advantage®, méthode ECO2A®, exposition au froid.",
     locale: "fr_FR",
     type: "website",
     url: BASE_URL,
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex MindFlow — Préparation Mentale & Bien-être",
+    title: "Préparateur Mental à Valenciennes — Alex MindFlow",
     description:
-      "Respiration fonctionnelle, préparation mentale et exposition au froid à Valenciennes.",
+      "Préparateur mental à Valenciennes. Respiration fonctionnelle, préparation mentale et exposition au froid.",
     images: [`${BASE_URL}/opengraph-image`],
   },
   alternates: {
@@ -43,8 +43,9 @@ const jsonLd = {
       "@type": "LocalBusiness",
       "@id": "https://www.alex-mindflow.fr/#business",
       name: "Alex MindFlow",
+      alternateName: "Préparateur Mental Valenciennes",
       description:
-        "Coaching en respiration fonctionnelle Oxygen Advantage®, préparation mentale ECO2A® et exposition au froid à Valenciennes.",
+        "Préparateur mental à Valenciennes : coaching en respiration fonctionnelle Oxygen Advantage®, préparation mentale ECO2A® et exposition au froid.",
       url: "https://www.alex-mindflow.fr",
       email: "alexzoonekynd@gmail.com",
       address: {
@@ -53,6 +54,7 @@ const jsonLd = {
         addressRegion: "Hauts-de-France",
         addressCountry: "FR",
       },
+      areaServed: ["Valenciennes", "Lille", "Hauts-de-France"],
       geo: {
         "@type": "GeoCoordinates",
         latitude: 50.3587,
@@ -70,14 +72,18 @@ const jsonLd = {
     {
       "@type": "Person",
       "@id": "https://www.alex-mindflow.fr/#person",
-      name: "Alex Zoonekynd",
-      jobTitle: "Coach en respiration fonctionnelle et préparation mentale",
+      name: "Alexandre Zoonekynd",
+      jobTitle: "Préparateur mental à Valenciennes",
       url: "https://www.alex-mindflow.fr/a-propos",
-      sameAs: ["https://www.instagram.com/alex_mindflow"],
+      sameAs: [
+        "https://www.instagram.com/alex_mindflow",
+        "https://www.linkedin.com/in/alexzoonekynd/",
+      ],
       knowsAbout: [
+        "Préparateur mental",
+        "Préparation mentale",
         "Oxygen Advantage",
         "Respiration fonctionnelle",
-        "Préparation mentale",
         "Méthode ECO2A",
         "Exposition au froid",
         "Bain froid",
