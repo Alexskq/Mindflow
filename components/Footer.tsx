@@ -34,7 +34,7 @@ export default function Footer() {
               Alex MindFlow
             </p>
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
-              Préparation mentale et bien-être à Valenciennes.
+              Préparateur mental à Valenciennes.
               Respiration, mental, froid. Performer sans se détruire.
             </p>
           </div>

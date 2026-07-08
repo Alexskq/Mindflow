@@ -5,9 +5,9 @@ import { CheckCircle, ArrowRight, Brain, Target, Zap, Shield, Heart, Activity } 
 import { CAL_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Préparation mentale — Méthode ECO2A® | Alex MindFlow",
+  title: "Préparateur Mental à Valenciennes — Méthode ECO2A® | Alex MindFlow",
   description:
-    "Découvre la préparation mentale et la méthode ECO2A® du Dr Sylvain Baert : entraîner son mental, gérer le stress, développer la force mentale. Certifié ECO2A® à Valenciennes.",
+    "Préparateur mental à Valenciennes, certifié méthode ECO2A® du Dr Sylvain Baert : entraîner son mental, gérer le stress, développer la force mentale.",
 };
 
 const MENTAL_QUALITIES = [
@@ -133,7 +133,7 @@ export default function PreparationMentalePage() {
         <div className="max-w-3xl mx-auto">
           <FadeIn>
             <p className="text-[#0A8F8F] text-sm font-semibold uppercase tracking-widest mb-6">
-              Méthode · Mental
+              Préparateur Mental · Valenciennes
             </p>
             <h1
               className="font-display text-5xl md:text-6xl font-bold leading-[1.05] tracking-tight mb-8"
