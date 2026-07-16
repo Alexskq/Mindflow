@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight, CheckCircle } from "lucide-react";
 import { CAL_URL } from "@/lib/constants";
 const PAGE_URL = "https://www.alex-mindflow.fr/blog/respirer-en-courant";
 const PUBLISHED = "2026-05-29T00:00:00.000Z";
-const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/breathing-running_d46f682c-9630-4c4e-9453-9bb6b483f4a2.jpg";
+const IMAGE = "https://www.alex-mindflow.fr/images/blog/respirer-en-courant.jpg";
 
 export const metadata: Metadata = {
   title: "Comment respirer en courant : nez ou bouche ?",
@@ -141,7 +141,7 @@ export default function RespirerEnCourantPage() {
       {/* IMAGE */}
       <section className="relative h-72 md:h-[480px] overflow-hidden">
         <Image
-          src="https://oxygenadvantage.com/cdn/shop/articles/breathing-running_d46f682c-9630-4c4e-9453-9bb6b483f4a2.jpg"
+          src="/images/blog/respirer-en-courant.jpg"
           alt="Respiration pendant la course à pied"
           fill
           sizes="100vw"

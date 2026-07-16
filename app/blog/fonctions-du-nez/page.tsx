@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowRight, CheckCircle } from "lucide-react";
 import { CAL_URL } from "@/lib/constants";
 const PAGE_URL = "https://www.alex-mindflow.fr/blog/fonctions-du-nez";
 const PUBLISHED = "2026-05-29T00:00:00.000Z";
-const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/nose-functions_13bb5c34-a40e-495c-a4a7-331510e9fc80.jpg";
+const IMAGE = "https://www.alex-mindflow.fr/images/blog/fonctions-du-nez.jpg";
 
 export const metadata: Metadata = {
   title: "Le nez : 30 fonctions que tu ne soupçonnes pas",
@@ -144,7 +144,7 @@ export default function FonctionsDuNezPage() {
       {/* IMAGE PRINCIPALE */}
       <section className="relative h-72 md:h-[480px] overflow-hidden">
         <Image
-          src="https://oxygenadvantage.com/cdn/shop/articles/nose-functions_13bb5c34-a40e-495c-a4a7-331510e9fc80.jpg"
+          src="/images/blog/fonctions-du-nez.jpg"
           alt="Fonctions du nez et respiration nasale"
           fill
           sizes="100vw"
