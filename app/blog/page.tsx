@@ -41,8 +41,7 @@ const ARTICLES = [
     title: "Le nez : 30 fonctions que tu ne soupçonnes pas",
     excerpt:
       "En 1970, le Dr Maurice Cottle a identifié 30 fonctions distinctes du nez humain. La plupart des gens connaissent la filtration et le réchauffement de l'air. Mais le nez fait bien plus que ça.",
-    image:
-      "https://oxygenadvantage.com/cdn/shop/articles/nose-functions_13bb5c34-a40e-495c-a4a7-331510e9fc80.jpg",
+    image: "/images/blog/fonctions-du-nez.jpg",
     readTime: "8 min",
     source: "Oxygen Advantage®",
   },
@@ -52,8 +51,7 @@ const ARTICLES = [
     title: "Asthme à l'effort ou juste hors de forme ?",
     excerpt:
       "Tu tousses, tu peines à respirer après l'effort ? Ce n'est pas forcément un manque de condition physique. Même des athlètes professionnels souffrent d'une bronchoconstriction induite par l'exercice.",
-    image:
-      "https://oxygenadvantage.com/cdn/shop/articles/Exercise-Induced-Asthma-Symptoms-Treatment-Causes_67b907b0-ccdd-4b89-8a2b-c98b4ccf6b1d.webp",
+    image: "/images/blog/asthme-effort-respiration.png",
     readTime: "7 min",
     source: "Oxygen Advantage®",
   },
@@ -63,8 +61,7 @@ const ARTICLES = [
     title: "Respiration buccale : causes, effets et comment l'arrêter",
     excerpt:
       "Respirer sainement, c'est respirer par le nez. Mais si ton nez est bloqué ou que ta tolérance au CO₂ est trop faible, tu respireras probablement par la bouche. Et ce n'est pas anodin.",
-    image:
-      "https://oxygenadvantage.com/cdn/shop/articles/Mouth-Breathing_3fae485b-e991-4f20-adc0-fb0438ec9f84.webp",
+    image: "/images/blog/respiration-buccale.png",
     readTime: "9 min",
     source: "Oxygen Advantage®",
   },
@@ -74,8 +71,7 @@ const ARTICLES = [
     title: "Comment respirer en courant : nez ou bouche ?",
     excerpt:
       "La respiration nasale pendant la course est 22 % plus efficace que la respiration buccale. Ce chiffre contre-intuitif change complètement la façon d'aborder l'entraînement en endurance.",
-    image:
-      "https://oxygenadvantage.com/cdn/shop/articles/breathing-running_d46f682c-9630-4c4e-9453-9bb6b483f4a2.jpg",
+    image: "/images/blog/respirer-en-courant.jpg",
     readTime: "8 min",
     source: "Oxygen Advantage®",
   },
@@ -85,8 +81,7 @@ const ARTICLES = [
     title: "Le score BOLT : mesure ta tolérance au CO₂ en 40 secondes",
     excerpt:
       "Le BOLT (Body Oxygen Level Test) est le marqueur central de la méthode Oxygen Advantage®. En moins d'une minute, il révèle ton niveau de tolérance au CO₂ et prédit ta gestion de l'essoufflement à l'effort.",
-    image:
-      "https://oxygenadvantage.com/cdn/shop/articles/Measure-your-BOLT-Score-and-Reduce-Breathlessness-During-Exercise_8412f399-2fda-401c-8f34-647a2ab1ef33.webp",
+    image: "/images/blog/score-bolt.png",
     readTime: "7 min",
     source: "Oxygen Advantage®",
   },

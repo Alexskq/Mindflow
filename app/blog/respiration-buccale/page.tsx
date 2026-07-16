@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight, AlertCircle } from "lucide-react";
 import { CAL_URL } from "@/lib/constants";
 const PAGE_URL = "https://www.alex-mindflow.fr/blog/respiration-buccale";
 const PUBLISHED = "2026-05-29T00:00:00.000Z";
-const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/Mouth-Breathing_3fae485b-e991-4f20-adc0-fb0438ec9f84.webp";
+const IMAGE = "https://www.alex-mindflow.fr/images/blog/respiration-buccale.png";
 
 export const metadata: Metadata = {
   title: "Respiration buccale : causes, effets et comment l'arrêter",
@@ -130,7 +130,7 @@ export default function RespirationBucalePage() {
       {/* IMAGE */}
       <section className="relative h-72 md:h-[480px] overflow-hidden">
         <Image
-          src="https://oxygenadvantage.com/cdn/shop/articles/Mouth-Breathing_3fae485b-e991-4f20-adc0-fb0438ec9f84.webp"
+          src="/images/blog/respiration-buccale.png"
           alt="Respiration buccale : causes et effets"
           fill
           sizes="100vw"

@@ -7,8 +7,7 @@ import { CAL_URL } from "@/lib/constants";
 
 const PAGE_URL = "https://www.alex-mindflow.fr/blog/score-bolt";
 const PUBLISHED = "2026-06-11T00:00:00.000Z";
-const IMAGE =
-  "https://oxygenadvantage.com/cdn/shop/articles/Measure-your-BOLT-Score-and-Reduce-Breathlessness-During-Exercise_8412f399-2fda-401c-8f34-647a2ab1ef33.webp";
+const IMAGE = "https://www.alex-mindflow.fr/images/blog/score-bolt.png";
 
 export const metadata: Metadata = {
   title: "Le score BOLT : mesure ta tolérance au CO₂ en 40 secondes",
@@ -151,7 +150,7 @@ export default function ScoreBoltPage() {
       {/* IMAGE */}
       <section className="relative h-72 md:h-[480px] overflow-hidden">
         <Image
-          src="https://oxygenadvantage.com/cdn/shop/articles/Measure-your-BOLT-Score-and-Reduce-Breathlessness-During-Exercise_8412f399-2fda-401c-8f34-647a2ab1ef33.webp"
+          src="/images/blog/score-bolt.png"
           alt="Le score BOLT : mesure ta tolérance au CO₂"
           fill
           sizes="100vw"

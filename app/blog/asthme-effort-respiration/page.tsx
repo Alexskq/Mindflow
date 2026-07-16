@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight, CheckCircle } from "lucide-react";
 import { CAL_URL } from "@/lib/constants";
 const PAGE_URL = "https://www.alex-mindflow.fr/blog/asthme-effort-respiration";
 const PUBLISHED = "2026-05-29T00:00:00.000Z";
-const IMAGE = "https://oxygenadvantage.com/cdn/shop/articles/Exercise-Induced-Asthma-Symptoms-Treatment-Causes_67b907b0-ccdd-4b89-8a2b-c98b4ccf6b1d.webp";
+const IMAGE = "https://www.alex-mindflow.fr/images/blog/asthme-effort-respiration.png";
 
 export const metadata: Metadata = {
   title: "Asthme à l'effort ou hors de forme ?",
@@ -130,7 +130,7 @@ export default function AsthmeEffortPage() {
       {/* IMAGE */}
       <section className="relative h-72 md:h-[480px] overflow-hidden">
         <Image
-          src="https://oxygenadvantage.com/cdn/shop/articles/Exercise-Induced-Asthma-Symptoms-Treatment-Causes_67b907b0-ccdd-4b89-8a2b-c98b4ccf6b1d.webp"
+          src="/images/blog/asthme-effort-respiration.png"
           alt="Asthme à l'effort et respiration"
           fill
           sizes="100vw"
